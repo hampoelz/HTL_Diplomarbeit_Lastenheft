@@ -4,29 +4,33 @@
 \usepackage{styles/main}
 \usepackage{styles/custom}
 
-\doctitle{}
-\confidential{\textbf{}}
+\doctitle{Universale App-Entwicklung}
+\confidential{\textbf{Lastenheft mit Detailaufgaben}}
 
-\author{}
+\author{Rene Hampölz, Noah Quinz}
 \company{HTBLA Weiz}
-\date{}
+\date{5. Mai 2022}
 
 \begin{document}
 \maketitle
 
-\IncludeHistoryTimeline
+% \IncludeHistoryTimeline
 
-\tableofcontents
+% \tableofcontents
 % \listoffigures
-\clearpage
-
-\settocdepth{subsection}
-
 % \clearpage
+
+% \settocdepth{subsection}
+
+\markdownInput{src/01-Projektbeschreibung.md}
+\input{src/02-Aufgabeneinteilung.tex}
+\input{src/03-Betreuer.tex}
+
+\clearpage
 % 
 % \nocite{*}
 % \printbibliography
 
-\IncludeHistoryTable
+% \IncludeHistoryTable
 
 \end{document}
