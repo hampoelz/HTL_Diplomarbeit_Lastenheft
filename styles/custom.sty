@@ -1,3 +1,18 @@
 % ========================================
 %      Add custom packages and styles     
 % ========================================
+
+\newcommand{\maketitletoc}{ % ┝ Make title, include toc and center vertically with a slight offset
+    \null                   % |
+    \nointerlineskip        % | no skip for prev line
+    \vfill                  % |
+    \let\snewpage \newpage  % |
+    \let\newpage \relax     % |
+    \maketitle              % |
+    \vspace{2em}            % | add some spce between title and toc
+    \tableofcontents        % |
+    \vspace{0.2\textheight} % | add offset
+    \let \newpage \snewpage % |
+    \vfill                  % |
+    \break                  % | page break
+}                           % |
