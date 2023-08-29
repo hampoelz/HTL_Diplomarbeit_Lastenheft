@@ -1,0 +1,16 @@
+\section{Projektbeschreibung}
+
+Durch das Framework Electron\footnote{\url{https://electronjs.org/}} werden Programme für Desktop-Systeme \textit{(Windows / Linux / macOS)} mit Webtechnologien \textit{(Frontend)} und Node.js\footnote{\url{https://nodejs.org/}} \textit{(Backend)} entwickelt.
+Mobile-Systeme \textit{(Android - ChromeOS, WearOS, AndroidTV / iOS - iPadOS, tvOS, watchOS)} werden nicht unterstützt.
+Um Mobile-Apps mit Webtechnologien zu entwickeln, steht das Capacitor\footnote{\url{https://capacitorjs.com/}}-Framework zur Verfügung, jedoch fehlt dort das Node.js-Backend.
+Im Rahmen der Diplomarbeit ist geplant, das Capacitor-Framework um ein Node.js-Backend zu erweitern, sowie eine direkte Integration in die Electron Platform-Erweiterung\footnote{\url{https://github.com/capacitor-community/electron}} für Capacitor, um eine einfache und universelle App-Entwicklung mit Webtechnologien und Node.js zu ermöglichen, welche Out-Of-The-Box \textit{(OOTB)} ohne zusätzlichen Aufwand auf allen Betriebssystemen \textit{(Windows / Linux / macOS / Android / iOS)} läuft.
+\textit{(Teil 1)}
+
+Des Weiteren ist eine Portierung der BrowserView\footnote{\url{https://electronjs.org/de/docs/latest/api/browser-view}}-Funktion von Electron zu Capacitor geplant, sowie eine direkte Integration in die Electron Platform-Erweiterung für Capacitor, um die OOTB-Experience weiterhin zu gewährleisten.
+\textit{(Teil 2)}
+
+Mithilfe dieser beiden Erweiterungen für das Capacitor-Framework ist geplant, einen universellen PWA\footnote{\url{https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps}} \textit{(Progressive Web-App)} Wrapper zu erstellen.
+Damit Entwickler aus ihrer Web-App, eine \textit{("Container"-)}App mit zusätzlichen Backend-Funktionen einfach erstellen können.
+Der PWA-Wrapper soll ein minimales aber modernes User-Interface \textit{(UI)}, Browser-Cache\footnote{\url{https://de.wikipedia.org/wiki/Browser-Cache}}-Funktionalitäten, sowie einen einfach zu konfigurierenden und benutzerfreundlichen Updater enthalten.
+Das UI soll bei auftretenden Fehlern auf der Benutzer- oder Server-Seite\textit{, wie beispielsweise bei fehlerhaftem Laden der WebApp,} sowie bei verschiedenen Browser-Ereignissen\textit{, wie beispielsweise während dem Laden der WebApp,} entsprechend benutzerfreundlich reagieren.
+\textit{(Teil 3)}
