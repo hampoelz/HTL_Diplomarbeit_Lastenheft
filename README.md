@@ -1,13 +1,13 @@
-# HTL Weiz LaTeX Vorlage
+# HTL Diplomarbeit Lastenheft
 
-➡ **Vorkonfiguriertes LaTeX-Dokument** - _Optimiert für den [VS-Code](https://code.visualstudio.com/)-Editor und der [Git](https://git-scm.com/)/[Github](https://github.com/)-Versionskontrolle_
+🎓 Plattformübergreifender WebApp-Wrapper mit benutzerdefiniertem Node.js-Backend
 
-> ℹ️ Dieses Projekt stellt Konfigurationen und Skripte bereit, um die Produktivität von Power-Usern zu steigern und Neulingen den Einstieg in LaTeX zu erleichtern. Es basiert auf der Basis-Vorlage [`hampoelz/LaTeX-Template`](https://github.com/hampoelz/LaTeX-Template) mit Anpassungen für die HTL Weiz.
+> [!NOTE]  
+> Eine Übersicht der Diplomarbeit ist in der Repository [`hampoelz/HTL_Diplomarbeit`](https://github.com/hampoelz/HTL_Diplomarbeit) zu finden. In dieser Repository befinden sich die Projektdateien für das Lastenheft.
 
-> ❗ Wichtiger Hinweis
->
-> Alle notwendigen Informationen und Tutorials finden Sie im Wiki:  
-> [https://github.com/hampoelz/HTL_LaTeX-Template/wiki](https://github.com/hampoelz/HTL_LaTeX-Template/wiki) 
+### Download  
+Die aktuellste PDF des Lastenheftes kann unter den Veröffentlichungen herunter geladen werden:  
+[Releases / `build` / `HTL_Diplomarbeit_Lastenheft.pdf`](https://github.com/hampoelz/HTL_Diplomarbeit_Lastenheft/releases/download/build/HTL_Diplomarbeit_Lastenheft.pdf)
 
 ---
 
